@@ -12,9 +12,9 @@ def line(katz_deli)
   else
     print "The line is currently: "
     katz_deli.each { |name|
-      puts "#{katz_deli.index + 1}. #{katz_deli}"
+      index = katz_deli.index + 1
+      puts "#{index}. #{katz_deli}"
     }
-
   end
 end
 
