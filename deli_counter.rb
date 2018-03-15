@@ -14,7 +14,7 @@ def line(deli)
   else
     print "The line is currently: "
     deli.each { |name|
-      order = deli.index + 1
+      order = deli.index
       puts "#{order}. #{deli}"
     }
   end
