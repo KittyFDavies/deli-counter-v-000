@@ -4,7 +4,6 @@ katz_deli = []
 def take_a_number(deli, name)
   #katz_deli.each { |customer|
   #  puts "Welcome, #{customer}. You are number #{customer.index + 1} in line."}
-  name = name.split
   deli << name
 end
 
