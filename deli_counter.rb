@@ -12,7 +12,7 @@ def line(deli)
   if deli.count == 0
     puts "The line is currently empty."
   else
-    print "The line is currently: "
+    puts "The line is currently: "
     deli.each { |name|
       order = deli.index
       puts "#{order}. #{deli}"
