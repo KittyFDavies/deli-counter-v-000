@@ -14,7 +14,7 @@ def line(katz_deli)
     katz_deli.each { |name|
       puts "#{katz_deli.index + 1}. #{katz_deli}"
     }
-    
+
   end
 end
 
