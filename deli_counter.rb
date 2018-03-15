@@ -15,7 +15,7 @@ def line(deli)
     puts "The line is currently: "
     deli.each { |name|
       order = deli.index
-      puts "#{order}. #{deli}"
+      puts "#{order}. #{name}"
     }
   end
 end
