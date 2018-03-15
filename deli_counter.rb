@@ -14,6 +14,12 @@ def line(katz_deli)
   end
 end
 
-def now_serving(katz_deli, name)
-  blah
+def now_serving(katz_deli)
+  if katz_deli.count == 0
+    puts "There is nobody waiting to be served!"
+  else
+    current_customer = katz_deli.shift
+    puts "Now serving #{current_customer}."
+    
+  end
 end
