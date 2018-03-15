@@ -4,16 +4,17 @@ katz_deli = []
 def take_a_number(katz_deli, name)
   #katz_deli.each { |customer|
   #  puts "Welcome, #{customer}. You are number #{customer.index + 1} in line."}
-  name.each { |person|
-    katz_deli << person
-  }
 end
 
 def line(katz_deli)
   if katz_deli.count == 0
     puts "The line is currently empty."
   else
-
+    print "The line is currently: "
+    katz_deli.each { |name|
+      puts "#{katz_deli.index + 1}. #{katz_deli}"
+    }
+    
   end
 end
 
