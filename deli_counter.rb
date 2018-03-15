@@ -5,7 +5,7 @@ def take_a_number(deli, name)
   #katz_deli.each { |customer|
   #  puts "Welcome, #{customer}. You are number #{customer.index + 1} in line."}
   deli << name
-  puts "Welcome, #{name}. You are number #{deli.index} in line."
+  puts "Welcome, #{name}. You are number #{deli.size} in line."
 end
 
 def line(deli)
