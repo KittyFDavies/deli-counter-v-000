@@ -13,6 +13,7 @@ def line(deli)
     deli.each_with_index do |name, order|
       puts "#{order + 1}. #{name}"
     end
+  end
 end
 
 def now_serving(deli)
