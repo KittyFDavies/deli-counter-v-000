@@ -14,6 +14,7 @@ def line(deli)
     deli.each_with_index do |name, order|
       line_list << "#{order + 1}. #{name}"
     end
+    puts line_list
   end
 end
 
