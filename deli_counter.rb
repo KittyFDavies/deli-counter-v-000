@@ -10,11 +10,9 @@ def line(deli)
   if deli.count == 0
     puts "The line is currently empty."
   else
-    print "The line is currently: "
-    deli.each { |name|
-      print "#{deli.index(name) + 1}. #{name}"
-    }
-  end
+    deli.each_with_index do |name, order|
+      puts "#{order + 1}. #{name}"
+    end
 end
 
 def now_serving(deli)
