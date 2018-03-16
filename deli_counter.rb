@@ -12,7 +12,7 @@ def line(deli)
   else
     print "The line is currently: "
     deli.each { |name|
-      puts "#{deli.index(name) + 1}. #{name}"
+      print "#{deli.index(name) + 1}. #{name}"
     }
   end
 end
