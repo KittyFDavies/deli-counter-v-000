@@ -2,8 +2,6 @@
 katz_deli = []
 
 def take_a_number(deli, name)
-  #katz_deli.each { |customer|
-  #  puts "Welcome, #{customer}. You are number #{customer.index + 1} in line."}
   deli << name
   puts "Welcome, #{name}. You are number #{deli.size} in line."
 end
@@ -12,11 +10,7 @@ def line(deli)
   if deli.count == 0
     puts "The line is currently empty."
   else
-    puts "The line is currently: "
-    deli.each { |name|
-      order = deli.index
-      puts "#{order}. #{name}"
-    }
+    puts "The line is currently: #{deli.size}. #{deli[0]}"
   end
 end
 
