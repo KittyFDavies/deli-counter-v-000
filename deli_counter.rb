@@ -10,9 +10,8 @@ def line(deli)
   if deli.count == 0
     puts "The line is currently empty."
   else
-    order = deli.index + 1
     deli.each { |name|
-      puts "The line is currently #{order}. #{name}"
+      puts "The line is currently #{deli.index(name) + 1}. #{name}"
     }
   end
 end
