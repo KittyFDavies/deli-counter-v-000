@@ -12,7 +12,7 @@ def line(deli)
   else
     line_list = "The line is currently: "
     deli.each_with_index do |name, order|
-      line_list << "#{order + 1}. #{name}"
+      line_list << "#{order + 1}. #{name} "
     end
     puts line_list
   end
