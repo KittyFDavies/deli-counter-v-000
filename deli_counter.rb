@@ -7,10 +7,10 @@ def take_a_number(deli, name)
 end
 
 def line(deli)
-  order = deli.index + 1
   if deli.count == 0
     puts "The line is currently empty."
   else
+    order = deli.index + 1
     deli.each { |name|
       puts "The line is currently #{order}. #{name}"
     }
